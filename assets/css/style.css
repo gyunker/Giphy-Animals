@@ -4,24 +4,32 @@ body {
     background-position: center;
     }
 
+#buttons-view {
+float:left;
+}
 
 label{
+   clear: right;
     font-family: 'Arial';
     color: white;
     font-size: 30px;
     padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
     font-weight: bold;
-    display: block;
+    /* display: block; */
     margin-left: auto;
-    margin-right: auto;
-  }
+    margin-right: auto;  
+}
+
 
 input{
-   padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    clear: right;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    /* font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   */
   }
 
   h2{
@@ -50,7 +58,7 @@ p {
 
 .movie{
     float:left;
-    width: 30%;
+    /* width: 250px; */
 	background-color: rgba(5, 5, 51, 0.76);
 	border-style: solid;
 	border-width: 3px;
@@ -68,6 +76,7 @@ p {
 }
 
 img{
-    width: 90%;
+    max-width: 90%;
+    max-height: 200px;
 }
 
